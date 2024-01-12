@@ -1,6 +1,10 @@
 public class Bus {
     public static void main(String[] args) {
-        public int elderFare = 1;
-        public float standardFare = 2.75;
+        int elderFare = 1;
+        double standardFare = 2.75;
+        int totalPassenger = 0;
+        int countPassenger = 0;
+
+        
     }
 }
