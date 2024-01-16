@@ -5,6 +5,6 @@ public class Bus {
         int totalPassenger = 0;
         int countPassenger = 0;
 
-        
+        Route route = new Route();
     }
 }
