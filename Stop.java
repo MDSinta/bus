@@ -5,4 +5,8 @@ public class Stop {
     public void checkBus() {
         if 
     }
+
+    public void addPassengers() {
+        
+    }
 }
