@@ -4,6 +4,7 @@ public class Bus {
         double standardFare = 2.75;
         int totalPassenger = 0;
         int countPassenger = 0;
+        int limit = 40;
 
         Route route = new Route();
     }
