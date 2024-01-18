@@ -8,7 +8,7 @@ public class Bus {
 
         Route route = new Route();
 
-        Thread.sleep();
+        Thread.sleep(2000);
         for (int i = 0; i < route.stop.length; i++) {
             
         }
