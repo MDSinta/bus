@@ -7,5 +7,10 @@ public class Bus {
         int limit = 40;
 
         Route route = new Route();
+
+        Thread.sleep();
+        for (int i = 0; i < route.stop.length; i++) {
+            
+        }
     }
 }
