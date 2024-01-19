@@ -10,9 +10,9 @@ public class Stop {
 
     public void addPassengers() {
         Thread.sleep(1000);
-        int pass = (Math.random() * 99 + 1);
+        int pass = (int)(Math.random() * 99 + 1);
         if(pass <= 30) {
-            int passenger = (Math.random() * ( 5 - 2 ) + 2);
+            int passenger = (int)(Math.random() * ( 5 - 2 ) + 2);
             for(int i = 0; i < passenger; i++) {
                 if(passenger <= 5) {
                     bus.elder++;
@@ -22,6 +22,16 @@ public class Stop {
                     bus.normPass++;
                 }
             }
+        }
+    }
+
+    public Stop() {
+        for (int i=0; i<10080; i++) {
+            int rand = (int)(Math.random()*10-1+1);
+            if (rand<4) {
+                addPassengers();
+            }
+            Thread.sleep(1000);
         }
     }
 }
